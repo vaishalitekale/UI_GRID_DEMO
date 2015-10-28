@@ -1,0 +1,35 @@
+    <form id="gridView">
+
+<fieldset ng-controller="GridexampleController">
+
+  <legend>
+
+         <div class="form-group has-error">
+
+            <div class="col-md-3">
+
+                <div class="input-group">
+
+                       <input type="text" class="form-control" ng-model="filterOptions.filterText" placeholder="Search users..">
+
+                         <span class="input-group-addon"><i class="fa fa-search"></i></span>
+
+                   </div>
+
+                </div>
+
+         </div>
+
+   </legend>
+
+    <div>
+
+     <div class="ngGridStyle" ng-grid="ngGridView"></div>
+
+   </div>
+ </fieldset>
+</form>
+  </body>
+</html>
+
+
